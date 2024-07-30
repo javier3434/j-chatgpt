@@ -1,3 +1,13 @@
+原项目：https://github.com/ChatGPTNextWeb/ChatGPT-Next-Web.git
+# 拉取原项目commit
+git remote add upstream https://github.com/ChatGPTNextWeb/ChatGPT-Next-Web.git
+git remote -v
+git fetch upstream
+git checkout main  # 切换到你的主分支
+git merge upstream/main  # 将 upstream 的 main 分支合并到本地
+git add .
+git push origin main
+
 <div align="center">
 
 <a href='#企业版'>
